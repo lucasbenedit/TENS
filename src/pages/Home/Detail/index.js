@@ -5,6 +5,7 @@ import Dot from '../../component/Dot';
 import SizeButton from '../../component/SizeButton';
 import Button from '../../component/Button';
 import Footer from '../../component/Footer';
+import App from '../../../services/api';
 
 export default function Detail({ navigation }) {
 
@@ -58,6 +59,8 @@ export default function Detail({ navigation }) {
             - Material: Mesh
           </Text>
          </View>
+        
+          <App/>
 
         <Button/>
 

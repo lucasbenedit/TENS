@@ -6,6 +6,8 @@ import SizeButton from '../../component/SizeButton';
 import Button from '../../component/Button';
 import Footer from '../../component/Footer';
 import api from '../../services/api';
+import App from '../../services/api';
+
 
 export default function Detail({ navigation}) {
 
@@ -62,7 +64,7 @@ O Tênis Nike Masculino Downshifter 10 traz amortecimento e suporte atualizados,
 
   <button /> 
 
-  <Cep/>
+ <App/>
 
   <view style={styles.line}/>
   

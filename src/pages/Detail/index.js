@@ -6,7 +6,7 @@ import SizeButton from '../../component/SizeButton';
 import Button from '../../component/Button';
 import Footer from '../../component/Footer';
 import api from '../../services/api';
-import App from '../../services/api';
+
 
 
 export default function Detail({ navigation}) {
@@ -31,7 +31,7 @@ export default function Detail({ navigation}) {
     <Text style={[style.title, { fontSize:  30 }]}>Nike Downshifter</Text>
   </View>
 
-<view style={styles.dotContainer}>
+<view style={style.dotContainer}>
 <Dot color="#2379f4"/>
 <Dot color="#fb6e53"/>
 <Dot color="#ddd"/>
@@ -47,17 +47,17 @@ export default function Detail({ navigation}) {
   </ScrollView>
 </View>
  
-<View style={styles.textContent}>
-<text styles={styles.textTitle}>
+<View style={style.textContent}>
+<text styles={style.textTitle}>
   Nike Downshifter 10
 </text>
-<text style={styles.textContent}>
+<text style={style.textContent}>
 O Tênis Nike Masculino Downshifter 10 traz amortecimento e suporte atualizados, para garantir uma corrida estável e confortável. Esse tênis de corrida é confeccionado em material respirável, cabedal em couro sintético
 </text> 
-<text style={styles.textList}>
+<text style={style.textList}>
    - Categoria: amortecimento
 </text>
-<text style={styles.textList}>
+<text style={style.textList}>
    - Material: Mesh
 </text>
 </View>
@@ -66,7 +66,7 @@ O Tênis Nike Masculino Downshifter 10 traz amortecimento e suporte atualizados,
 
  <App/>
 
-  <view style={styles.line}/>
+ <View style={styles.line} />
   
   <Footer/>
 
